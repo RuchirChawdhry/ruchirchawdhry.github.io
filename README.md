@@ -13,3 +13,5 @@ The [central sitemap workflow](https://github.com/RuchirChawdhry/ci-workflows/bl
 Project websites remain independently deployed; the root workflow does not modify them. The index includes only verified same-host XML sitemap files. Custom domains require separate sitemap submission.
 
 [Root website](https://ruchirchawdhry.github.io/) · [Sitemap](https://ruchirchawdhry.github.io/sitemap.xml)
+
+The central discovery job logs rejected sitemap sources to help diagnose missing project entries.
