@@ -23,3 +23,7 @@ The generated [robots.txt](https://ruchirchawdhry.github.io/robots.txt) explicit
 ## AI documentation index
 
 [llms.txt](https://ruchirchawdhry.github.io/llms.txt) is a generated catalogue of project-level AI-readable documentation indexes. The central workflow discovers valid files automatically, includes repository descriptions, and refreshes the catalogue with the daily sitemap build. It does not require a manual project list.
+
+## Reference documentation
+
+- [Schema.org JSON-LD reference](docs/schema-org-reference.md) — selected schema types and agreed properties for automatic generation.
