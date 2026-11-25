@@ -1,0 +1,21 @@
+name: Portfolio sitemap
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '17 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    uses: RuchirChawdhry/ci-workflows/.github/workflows/sitemap-index.yml@main
