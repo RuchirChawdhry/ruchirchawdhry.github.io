@@ -27,3 +27,5 @@ The generated [robots.txt](https://ruchirchawdhry.github.io/robots.txt) explicit
 ## Reference documentation
 
 - [Schema.org JSON-LD reference](docs/schema-org-reference.md) — selected schema types and agreed properties for automatic generation.
+
+The root homepage also publishes a JSON-LD graph for the account identity, website and project collection. See [central structured data implementation](https://github.com/RuchirChawdhry/ci-workflows/blob/main/docs/structured-data.md).
