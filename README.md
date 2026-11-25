@@ -15,3 +15,7 @@ Project websites remain independently deployed; the root workflow does not modif
 [Root website](https://ruchirchawdhry.github.io/) · [All page URLs](https://ruchirchawdhry.github.io/sitemap.xml) · [Sitemap index](https://ruchirchawdhry.github.io/sitemaps.xml)
 
 The central discovery job logs rejected sitemap sources to help diagnose missing project entries.
+
+## Crawler policy
+
+The generated [robots.txt](https://ruchirchawdhry.github.io/robots.txt) explicitly allows named AI, search, SEO and research crawlers, plus all other crawlers through a wildcard rule. It declares both root sitemaps and each discovered project sitemap. The policy is maintained in the central workflow.
